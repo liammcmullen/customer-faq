@@ -1,0 +1,78 @@
+@media(min-width: 767.01px) and (max-width: 1023px){
+header nav ul li a{font-size: 14px;}	
+.navbar-brand img{width: 300px}
+.contact-form h1{font-size: 26px;}
+}
+@media(max-width: 767px) {
+.top-header .container{padding: 0;max-width: 100%;}	
+.top-header .navbar-brand{padding-left: 15px;padding-bottom: 13px;}
+.top-header .navbar-toggler{padding-right: 15px;padding-bottom: 13px}
+.top-header{padding-bottom: 0;}
+header nav ul li:last-child{border: 0;}	
+.contact-form .conatct-right{margin-top: 70px;}	
+.contact-form .conatct-right::after{
+top: -36px;
+width: 90%;
+height: 1px;
+left: 50%;
+transform: translateX(-50%);
+}
+.contact-form .conatct-right::before{
+left: 50%;
+top: -51px;
+transform: translateX(-50%);
+z-index: 99;	
+}
+.contact-section .col-md-8::after{bottom: -32px;}
+.contact-section .col-md-8::before{bottom: -41px;}	
+.landing-banner .input-group button{font-size: 22px;padding: 5px 16px;}
+header {text-align: center;}
+header nav ul {text-align: center;}
+header nav ul li:last-child {margin-right: 20px;}
+header h4 a:before{display: none;}
+header h4 {font-size: 16px;line-height: 1;padding-left: 0;margin-top: 10px;}
+.navbar-brand img{width: 290px}
+.landing-banner h2 {font-size: 20px;margin: 10px 0 15px;}
+.landing-banner ul {margin: 0;padding: 0;}
+.landing-banner ul li {display: block;width: 100%;margin: 0;}
+.landing-banner ul li:last-child {width: 100%;}
+.frequently h3 {font-size: 20px;margin: 0 0 15px;}
+footer {padding: 14px 0;}
+footer ul {padding: 14px 0;}
+.card-header {padding: .5rem 1.25rem;}
+.card-header a.card-link {font-size: 15px;}
+.ml-auto, .mx-auto{background: #231f20}
+header nav ul li{border-bottom: 1px solid #fff}
+header nav ul li a{color: #fff;}
+header nav ul li a.active:after{display: none;}
+.navbar-toggler:focus, .navbar-toggler:hover{box-shadow: none; outline: 0;}
+.landing-banner h4 {font-size: 16px;}
+.frequently {padding: 25px 0 0;}
+.contact-form {padding: 35px 0;text-align: center;}
+.conatct-left img{width:10%;}
+.conatct-left h1{font-size: 26px;margin-bottom: 20px;}
+.contact-section {padding: 25px 0;}
+.contact-section .page-heading::after {bottom: 13px;height: 3px;}
+.contact-form h6 {margin-bottom: 10px;margin-top: 10px;}
+.page-header .page-heading{padding: 25px 60px;font-size: 20px;}
+.page-heading {font-size: 20px;}
+.forgot-email {padding: 25px 0 25px;}
+select.form-control:not([size]):not([multiple]) {
+    height: calc(2.25rem + 15px);}
+.faq {padding: 35px 0;}
+.help-contact {padding: 25px 0 10px;}
+.terms-condition {margin: 35px 0;}
+}
+@media(max-width: 576px){
+
+}
+@media(min-width: 576.01px) and (max-width: 767px){
+.navbar-brand img {
+width: 354px;
+}	
+}
+@media(max-width: 360px){
+.navbar-brand img {
+    width: 220px;
+}	
+}
